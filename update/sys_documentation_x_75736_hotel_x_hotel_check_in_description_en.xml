@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="last_name" label="my last name" language="en" table="x_75736_hotel_guest">
+    <sys_documentation element="description" label="Description" language="en" table="x_75736_hotel_x_hotel_check_in">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>last_name</element>
+            <element>description</element>
             <help/>
             <hint/>
-            <label>my last name</label>
+            <label>Description</label>
             <language>en</language>
-            <name>x_75736_hotel_guest</name>
-            <plural>my last name</plural>
+            <name>x_75736_hotel_x_hotel_check_in</name>
+            <plural>Descriptions</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-12-14 10:11:40</sys_created_on>
+            <sys_created_on>2017-02-15 08:09:34</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>cf3cb97fdb6b22000368ddd0cf9619ae</sys_id>
+            <sys_id>8a8c7580db4932000368ddd0cf961987</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>my last name</sys_name>
+            <sys_name>Description</sys_name>
             <sys_package display_value="Hotel" source="x_75736_hotel">a742a030db1322000368ddd0cf96194b</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Hotel">a742a030db1322000368ddd0cf96194b</sys_scope>
-            <sys_update_name>sys_documentation_x_75736_hotel_guest_last_name_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_75736_hotel_x_hotel_check_in_description_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-12-14 10:11:40</sys_updated_on>
+            <sys_updated_on>2017-02-15 08:09:34</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

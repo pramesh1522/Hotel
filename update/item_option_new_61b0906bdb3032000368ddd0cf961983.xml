@@ -57,7 +57,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-13 11:01:32</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>61b0906bdb3032000368ddd0cf961983</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Arrival</sys_name>

@@ -17,7 +17,7 @@
         <icon/>
         <ignore_price>false</ignore_price>
         <image/>
-        <list_price>0</list_price>
+        <list_price>0.00</list_price>
         <location/>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -49,7 +49,7 @@
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-13 11:01:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>2db0906bdb3032000368ddd0cf961980</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>New Reservation</sys_name>

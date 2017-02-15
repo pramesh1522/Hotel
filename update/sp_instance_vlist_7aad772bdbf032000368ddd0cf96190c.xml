@@ -22,7 +22,7 @@
         <sys_class_name>sp_instance_vlist</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-14 04:16:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7aad772bdbf032000368ddd0cf96190c</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>

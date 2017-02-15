@@ -14,7 +14,7 @@
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-13 15:36:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6aafc5ebdb3032000368ddd0cf9619a1</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>Hotel Home - Container 1</sys_name>
