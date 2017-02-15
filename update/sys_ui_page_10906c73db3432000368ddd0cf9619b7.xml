@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_75736_hotel_loop world.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<j:set var="jvar_message" value="Hello, world!"/>
+	<j:forEach indexVar="i" begin="1" end="4">
+<p>${jvar_message}</p>
+
+	</j:forEach>
+	
+</j:jelly>]]></html>
+        <name>loop world</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-14 06:49:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>10906c73db3432000368ddd0cf9619b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>loop world</sys_name>
+        <sys_package display_value="Hotel" source="x_75736_hotel">a742a030db1322000368ddd0cf96194b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a742a030db1322000368ddd0cf96194b</sys_scope>
+        <sys_update_name>sys_ui_page_10906c73db3432000368ddd0cf9619b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-14 06:51:03</sys_updated_on>
+    </sys_ui_page>
+</record_update>

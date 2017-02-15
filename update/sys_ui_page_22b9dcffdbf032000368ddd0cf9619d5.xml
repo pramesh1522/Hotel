@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function check() {
+if ($('user_field').value == '') {
+alert('Please enter your namesss');
+return false;
+}
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_75736_hotel_hello_test.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide"
+xmlns:j2="null" xmlns:g2="null">
+<form action="ui_page_process.do" onsubmit="return check();">
+<input type="hidden" name="name" value="hello_test"/>
+Namesss: <input name="user_name" id="user_field"/>
+<input type="submit" value="Submit"/>
+</form>
+</j:jelly>]]></html>
+        <name>hello_test</name>
+        <processing_script><![CDATA[gs.addInfoMessage('Hello Boss ' + user_name);
+//return 'Hello Bossffff';]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-14 06:20:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>22b9dcffdbf032000368ddd0cf9619d5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>hello_test</sys_name>
+        <sys_package display_value="Hotel" source="x_75736_hotel">a742a030db1322000368ddd0cf96194b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Hotel">a742a030db1322000368ddd0cf96194b</sys_scope>
+        <sys_update_name>sys_ui_page_22b9dcffdbf032000368ddd0cf9619d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-14 06:32:46</sys_updated_on>
+    </sys_ui_page>
+</record_update>
